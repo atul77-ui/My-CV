@@ -5,6 +5,7 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>My Digfital CV</title>
     <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
     <nav class="navbar" id="Navbar">
@@ -18,5 +19,218 @@
             </ul>
         </div>
     </nav>
+
+<main>
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="hero-label">Aspiring fullstack developer</span>
+                    <h1 class="hero-name">Full stack Dev</h1>
+                    <p class="hero-tagline">
+                        Blending the raw warmth of artisanal design with <br /> precision of modern engineering.
+                    </p>
+                    <ul class="hero" id="hero">
+                        <li><a href="#Work" class="btn">Explore More</a></li>
+                        <li><a href="#about" class="btn">Find More</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image-card">
+            <div class="hero-image-wrapper">
+                <img 
+                    src="https://media.istockphoto.com/id/2266834434/photo/laptop-typing-and-businessman-in-office-with-research-for-full-stack-development-with-project.webp?a=1&b=1&s=612x612&w=0&k=20&c=VGfp5nf8YR5luhwV-AysTJTeB72BPTLL1KUWWn9aDTw="
+                    alt="Professional Developer image"
+                    class="hero-photo"
+                    loading="lazy"
+                />
+
+                <div class="hero-image-card">
+                    <div class="hero-image-wrapper">
+                        <img 
+                            src="assets/IMG_8564.jpg"
+                            width="400"
+                            height="400"
+                            alt="Professional Developer image"
+                            class="hero-photo"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-heading-italic">The magic of code</h2>
+                    <p class="about-description">
+                        I am a passionate full stack developer with a love for crafting elegant and efficient code. <br/>
+                        With a strong foundation in both front-end and back-end technologies, I thrive on creating seamless user experiences and robust applications.<br/>
+                        My journey in coding has been fueled by curiosity and a desire to solve complex problems, making me a dedicated and innovative developer.
+                    </p>
+                    <p>
+                        I am always eager to learn new technologies and stay updated with industry trends, ensuring that my skills remain sharp and relevant in the ever-evolving world of software development.
+                    </p>
+                </div>
+
+                <div class="tech-card">
+                    <h3 class="tech-card-title">Technical experience</h3>
+                    <ul class="tech-list">
+                    <li><span class="tech-icon"><i class="fa-brands fa-html5"></i></span> html and CSS</li>
+                    <li><span class="tech-icon"><i class="fa-brands fa-js"></i></span>javascript</li>
+                    <li><span class="tech-icon"><i class="fa-brands fa-php"></i></span>php</li>
+                    <li><span class="tech-icon"><i class="fa-brands fa-git"></i></span>Git collaboration</li>
+                    </ul>
+
+                    <div class="tech-exploring">
+                        <span class="exploring-label"
+                        >Currently looking for internships</span>
+                        <p class="exploring-tech">AI/Datascence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="container">
+            <div class="work-heasder">
+                <h2 class="section-heading-italic">selected work</h2>
+                <p class="heading-subtitle">
+                    A selection of technical exhibits showcasing problem sholving and srchitectural focus.
+                </p>
+            </div>
+
+            <article class="project-card">
+                <div class="project-image-wrapper">
+                    <img
+                    src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvamVjdHxlbnwwfHwwfHx8MA%3D%3D" 
+                    alt="Task Tracker Project" />
+                </div>
+
+                <div class="project-info">
+                    <span class="project-type">6 months/fullstack</span>
+                    <h3 class="project-title">Task tracker</h3>
+                    <p class="project-desc">
+                        A high-performance productive tool designed to manage the task of a team.
+                    </p>
+                </div>
+
+                <div class="project-tag">
+                    <ul class="project-tag-list">
+                        <li><span class="tag">React</span></li>
+                        <li><span class="tag">CSS</span></li>
+                        <li><span class="tag">PHP</span></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="voyage-contact" id="contact">
+        <div class="container">
+            <div class="voyage-contact grid">
+                <div class="voyage">
+                    <h2 class="section-heading-italic">Professional voyage</h2>
+                    <div class="timeline">
+                        <div class="timeline-meta">
+                            <span class="timeline-date">2026 - present</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Freelance Developer</h3>
+                            <p class="timeline-desc">
+                                Developing bespoke digital experiences for indipendent 
+                                brands, focusing on high-end editorial experience.
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2 class="section-heading-italic">Start a conversation</h2>
+                <form class="contact-form" id="contact-form novalidate">
+                    <div class="form-group">
+                        <label for="Identity-input" class="identity-group">Identity</label>
+                        <input 
+                            type="text"
+                            id="indentityInput"
+                            name="name"
+                            class="form-input"
+                            placeholder="your name"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="correspondnceInput" class="form-label"
+                        >Correspondence</label>
+                        <input 
+                            type="email"
+                            id="correspondnceInput"
+                            name="email"
+                            class="form-input"
+                            placeholder="your email"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="intentInput" class="form-label">Intent</label>
+                        <textarea
+                            name="message"
+                            class="form-input form-textarea"
+                            id="intentInput"
+                            placeholder="Tell me about yourself"
+                            rows="4"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-social">
+                <a 
+                    href="mailto:abcd@gmail.com" 
+                    class="social-link" 
+                    aria-label="send email"
+                >
+                    <span  class="social-icon"><i class="fa-regular fa-envelope"></i></span>
+                    <span class="social-text">Email</span>
+                </a>
+
+                <a 
+                    href="https://github.com/atul77-ui/My-CV"
+                    class="social-link"
+                    aria-label="gitHub"
+                >
+                    <span class="social-icon"><i class="fa-brands fa-github"></i></span>
+                    <span class="social-text">GitHub</span>
+                </a>
+
+                <a 
+                    href="https://www.linkedin.com/"
+                    class="social-link"
+                    aria-label="linkedin"
+                >
+                    <span class="social-icon"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="social-text">Linkedin</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</main>
 </body>
 </html>
